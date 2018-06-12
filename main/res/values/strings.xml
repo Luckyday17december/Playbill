@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ДК Дружба</string>
+    <string name="label_date">Дата:</string>
+    <string name="label_time">Начало в:</string>
+    <string name="label_price">Цена:</string>
+    <string name="label_place">Где:</string>
+    <string name="label_title">Название:</string>
+    <string name="label_synopsis">Описание:</string>
+    <string name="invalid_query_uri">Invalid query Uri: </string>
+</resources>

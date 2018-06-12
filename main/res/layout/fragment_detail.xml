@@ -1,0 +1,98 @@
+<ScrollView android:id="@+id/detailsScrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="1"
+        android:useDefaultMargins="true">
+
+        <ImageView
+            android:id="@+id/teventImageView"
+            android:background="@drawable/textview_border"
+            android:layout_column="0"
+            android:layout_row="0"
+            />
+
+        <TextView
+            android:id="@+id/dateLabelTextView"
+            style="@style/TeventLabelTextView"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:text="@string/label_date" />
+
+        <TextView
+            android:id="@+id/dateTextView"
+            style="@style/TeventTextView"
+            android:layout_column="0"
+            android:layout_row="2" />
+
+        <TextView
+            android:id="@+id/priceLabelTextView"
+            style="@style/TeventLabelTextView"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:text="@string/label_price" />
+
+        <TextView
+            android:id="@+id/priceTextView"
+            style="@style/TeventTextView"
+            android:layout_column="0"
+            android:layout_row="4" />
+
+        <TextView
+            android:id="@+id/timeLabelTextView"
+            style="@style/TeventLabelTextView"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:text="@string/label_time" />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            style="@style/TeventTextView"
+            android:layout_column="0"
+            android:layout_row="6" />
+
+        <TextView
+            android:id="@+id/placeLabelTextView"
+            style="@style/TeventLabelTextView"
+            android:layout_column="0"
+            android:layout_row="7"
+            android:text="@string/label_place" />
+
+        <TextView
+            android:id="@+id/placeTextView"
+            style="@style/TeventTextView"
+            android:layout_column="0"
+            android:layout_row="8" />
+
+        <TextView
+            android:id="@+id/titleLabelTextView"
+            style="@style/TeventLabelTextView"
+            android:layout_column="0"
+            android:layout_row="9"
+            android:text="@string/label_title" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            style="@style/TeventTextView"
+            android:layout_column="0"
+            android:layout_row="10" />
+
+        <TextView
+            android:id="@+id/synopsisLabelTextView"
+            style="@style/TeventLabelTextView"
+            android:layout_column="0"
+            android:layout_row="11"
+            android:text="@string/label_synopsis" />
+
+        <TextView
+            android:id="@+id/synopsisTextView"
+            style="@style/TeventTextView"
+            android:layout_column="0"
+            android:layout_row="12" />
+
+    </GridLayout>
+</ScrollView>
